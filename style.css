@@ -18,7 +18,7 @@ body {
 }
 
 .clock {
-    background-image: url("/images/background.jpg");
+    background-image: url("background.jpg");
     border-radius: 50%;
     color: wheat;
     height: 30rem;
