@@ -18,7 +18,7 @@ body {
 }
 
 .clock {
-    background-image: url("background.jpg");
+    background-image: url("/images/background.jpg");
     border-radius: 50%;
     color: wheat;
     height: 30rem;
@@ -28,7 +28,7 @@ body {
 
 .clock .number {
     --rotation: 0;
-    font-size: 40px;
+    font-size: 42px;
     height: 100%;
     position: absolute;
     text-align: center;
@@ -38,15 +38,24 @@ body {
 
 .clock .number1 { --rotation: 30deg;}
 .clock .number2 { --rotation: 60deg;}
-.clock .number3 { --rotation: 90deg;}
 .clock .number4 { --rotation: 120deg;}
 .clock .number5 { --rotation: 150deg;}
-.clock .number6 { --rotation: 180deg;}
 .clock .number7 { --rotation: 210deg;}
 .clock .number8 { --rotation: 240deg;}
-.clock .number9 { --rotation: 270deg;}
 .clock .number10 { --rotation: 300deg;}
 .clock .number11 { --rotation: 330deg;}
+
+.number6 {
+    top: 418px;
+}
+.number3 {
+    top: 208px;
+    left: 210px;
+}
+.number9 {
+    top: 208px;
+    right: 210px;
+}
 
 .clock .hand {
     --rotation: 0;
